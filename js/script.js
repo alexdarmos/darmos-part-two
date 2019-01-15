@@ -26,7 +26,7 @@ switch (eventType) {
 //stores corresponding clothing in variable
 if (tempFahr < 54) {
   tempClothing = "a coat";
-} else if ( tempFahr > 54 && tempFahr < 70) {
+} else if (tempFahr < 70) {
     tempClothing = "a jacket";
 } else {
     tempClothing = "no jacket";
